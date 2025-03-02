@@ -1,0 +1,10 @@
+## To upload a file in collab 
+
+from google.colab import files
+uploaded = files.upload()
+
+## Dependencies
+
+!pip install google-generativeai 
+!pip install pyannote.audio - pyannote for audio diarization 
+!pip install openai-whisper

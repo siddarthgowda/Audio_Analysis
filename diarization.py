@@ -1,6 +1,6 @@
 from pyannote.audio import Pipeline
 
-diarization_pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization", use_auth_token="HF_AUTH_KEY")
+diarization_pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization", use_auth_token="HF_AUTH_KEY") 
 
 def get_speaker_segments(file_path):
 
@@ -17,7 +17,7 @@ segments = get_speaker_segments("/content/audio.wav")
 #for better analysing
 
 import whisper
-from pyannote.audio import Pipeline
+from pyannote.audio import Pipeline 
 from pyannote.core import Segment
 
 # Load Whisper model
