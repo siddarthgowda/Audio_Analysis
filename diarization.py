@@ -13,8 +13,20 @@ def get_speaker_segments(file_path):
 # Example usage
 segments = get_speaker_segments("/content/audio.wav")
 
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------
+"""
+output:
+Speaker SPEAKER_00: (speech from 1.45s to 12.47s)
+Speaker SPEAKER_00: (speech from 14.86s to 15.27s)
+Speaker SPEAKER_00: (speech from 18.09s to 30.51s)
+Speaker SPEAKER_00: (speech from 32.90s to 50.88s)
+"""
+
 #---------------------------------------------------------------------------------------------------------------------------------------
+
 #for better analysing
+
 
 import whisper
 from pyannote.audio import Pipeline 
