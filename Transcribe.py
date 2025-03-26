@@ -15,11 +15,16 @@ print("text:",text)
 """
 output:
 
-text:  Hello, this is Harshita from Flipkart Loans. 
-Congratulations, we have a pre-approved personal loan of Rs 50,000 for you. 
-Are you interested? Yes. Great. I'll WhatsApp you a link which you can use to complete the process to avail this limited time offer. 
-Before I send you that link, do you want to know more about the offer? Yes, tell me more.
-Well, this exclusive stash loan is brought to you after verifying your eligibility from India's top banks and loan providers. 
-This is your credit history. We hope to offer highest loan with the lowest EMI. For more details, use the WhatsApp link. Thank you.
-
+text:  Thank you for calling life support service. This is Jane. How can I help you?
+I have a question about something that I received in a mail. Sure. 
+I'll be glad to assist you regarding that mail. Perfect. Can you please tell me more about the mail you received? 
+Yeah, sure. Well, you see, couple of weeks ago. I met with an accident and I was rushed to hospital. My knees slammed into the dashboard. But I feel better now. I was under the impression that my insurance will cover the whole bill. But this paperwork says something else. 
+I will be happy to check your account so that I can help you better. 
+Okay, thank you. 
+May I have your complete name, sir? 
+My first name is John. Last name is Williams. 
+And your member ID, John? 
+My ID number is 1dg4t6nk62. 
+And your zip code?
+98101 Fifth Avenue.
 """

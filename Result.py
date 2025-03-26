@@ -8,13 +8,18 @@ genai.configure(api_key=api_key)
 
 # Define transcript
 transcript = """
-Hello, this is Harshita from Flipkart Loans. Congratulations, we have a pre-approved personal loan of Rs 50,000 for you. Are you interested?
-Yes.
-Great. I'll WhatsApp you a link which you can use to complete the process to avail this limited-time offer.
-Before I send you that link, do you want to know more about the offer?
-Yes, tell me more.
-Well, this exclusive stash loan is brought to you after verifying your eligibility from India's top banks and loan providers. This is your credit history.
-We hope to offer the highest loan with the lowest EMI. For more details, use the WhatsApp link. Thank you.
+Thank you for calling life support service. This is Jane. How can I help you?
+I have a question about something that I received in a mail. Sure. 
+I'll be glad to assist you regarding that mail. Perfect. Can you please tell me more about the mail you received? 
+Yeah, sure. Well, you see, couple of weeks ago. I met with an accident and I was rushed to hospital. My knees slammed into the dashboard. But I feel better now. I was under the impression that my insurance will cover the whole bill. But this paperwork says something else. 
+I will be happy to check your account so that I can help you better. 
+Okay, thank you. 
+May I have your complete name, sir? 
+My first name is John. Last name is Williams. 
+And your member ID, John? 
+My ID number is 1dg4t6nk62. 
+And your zip code?
+98101 Fifth Avenue.
 """
 
 # Define prompt
@@ -46,26 +51,21 @@ print(response.text)
 #--------------------------------------------------------------------------------------------------------------------------------------
 
 """
-output:
 Analysis Results:
 
-Okay, here's an analysis of the provided call transcript, broken down into the requested categories:
+Okay, here's the analysis of the call transcript:
 
-**Ratings (1-10 scale, 10 being the best):**
+**Ratings (1-10 scale):**
 
-*   **Overall Transcript Analysis Score: 6/10** - This score reflects the simplicity of the interaction. While efficient, it lacks in-depth information and feels somewhat transactional. The agent quickly redirects to WhatsApp, limiting the opportunity for genuine engagement and relationship building.
-
-*   **Agent Interaction Score: 6/10** - Harshita is polite and follows a script. However, she doesn't personalize the interaction beyond mentioning the pre-approved loan amount. She quickly jumps to directing the user to WhatsApp instead of providing substantial information on the call.
-
-*   **User Response Score: 7/10** - The user's responses are concise and cooperative ("Yes," "Tell me more"). The user doesn't provide any unnecessary or confusing information.
-
-*   **User Language Clarity: 10/10** - The user's responses are perfectly clear and understandable.
-
-*   **Solution Given Clarity: 5/10** - The "solution" (accessing the loan via a WhatsApp link) is technically clear, but lacks detail. The agent doesn't explain key loan terms, interest rates, or repayment schedules. The user is left to find out these details themselves, creating a potential for misunderstanding or dissatisfaction.
+*   **Overall Transcript Analysis Score:** 7 - The transcript shows a reasonably smooth interaction, but lacks resolution. More information and follow-up are needed.
+*   **Agent Interaction Score:** 8 - Jane is polite and offers assistance. She seeks necessary information to help the user. Her prompts are clear.
+*   **User Response Score:** 7 - John provides the requested information, albeit with a slightly rambling explanation initially. He's cooperative.
+*   **Agent Communication Clarity:** 9 - Jane's communication is clear, concise, and professional.
+*   **User Language Clarity:** 7 - John's initial explanation is a bit verbose, but he ultimately provides the needed information.
+*   **Solution Given Clarity:** 2 - There is no solution given in this snippet. The agent is only in the information gathering stage.
 
 **Sentiment Analysis:**
 
-*   **Sentiment:** **Neutral**
-
-*   **Explanation:** The conversation lacks strong emotional cues. The agent uses a polite, professional tone, and the user responds neutrally. The focus is on a transactional offering, resulting in a sentiment that is neither particularly positive nor negative. There are no expressions of excitement, concern, or frustration from either party. It feels like a routine, scripted interaction.
+*   **Sentiment:** Neutral
+*   **Explanation:** The overall sentiment is neutral. John is expressing a concern, but not in an overtly angry or frustrated way. Jane is maintaining a professional and helpful demeanor. The situation is presented without strong emotional charge at this point."
 """

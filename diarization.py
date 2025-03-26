@@ -103,19 +103,25 @@ Detecting speakers...
 Aligning transcript with speakers...
 
 --- Conversation ---
-Unknown:  Hello, this is Harshita from Flipkart Loans.
-SPEAKER_00:  Congratulations, we have a pre-approved personal loan of Rs 50,000 for you.
-SPEAKER_00:  Are you interested?
-Unknown:  Yes.
-Unknown:  Great.
-Unknown:  I'll WhatsApp you a link which you can use to complete the process to avail this limited
-SPEAKER_00:  time offer.
-SPEAKER_00:  Before I send you that link, do you want to know more about the offer?
-SPEAKER_00:  Yes, tell me more.
-SPEAKER_00:  Well, this exclusive stash loan is brought to you after verifying your eligibility from India's
-SPEAKER_00:  top banks and loan providers.
-SPEAKER_00:  This is your credit history.
-SPEAKER_00:  We hope to offer highest loan with the lowest EMI.
-SPEAKER_00:  For more details, use the WhatsApp link.
-SPEAKER_00:  Thank you.
- """
+Unknown:  Thank you for calling life support service.
+Unknown:  This is Jane. How can I help you?
+Unknown:  I have a question about something that I received in a mail.
+Unknown:  Sure. I'll be glad to assist you regarding that mail.
+Unknown:  Perfect.
+Unknown:  Can you please tell me more about the mail you received?
+SPEAKER_00:  Yeah, sure.
+Unknown:  Well, you see, couple of weeks ago.
+Unknown:  I met with an accident and I was rushed to hospital.
+Unknown:  My knees slammed into the dashboard.
+Unknown:  But I feel better now.
+Unknown:  I was under the impression that my insurance will cover the whole bill.
+Unknown:  But this paperwork says something else.
+Unknown:  I will be happy to check your account so that I can help you better.
+Unknown:  Okay, thank you.
+Unknown:  May I have your complete name, sir?
+Unknown:  My first name is John. Last name is Williams.
+Unknown:  And your member ID, John?
+Unknown:  My ID number is 1dg4t6nk62.
+Unknown:  And your zip code?
+Unknown:  98101 Fifth Avenue."
+"""
