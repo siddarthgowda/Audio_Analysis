@@ -11,7 +11,7 @@ def get_speaker_segments(file_path):
     return segments
 
 # Example usage
-segments = get_speaker_segments("/content/audio.wav")
+segments = get_speaker_segments("/content/sample_data/audio3.wav")
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------
@@ -78,7 +78,7 @@ def align_speakers(transcript_segments, speaker_segments):
 
 # Main execution
 if __name__ == "__main__":
-    file_path = "audio.wav"  # Update with your audio file
+    file_path = "/content/sample_data/audio3.wav"  # Update with your audio file
 
     print("Transcribing audio...")
     transcript_segments = transcribe_audio(file_path)

@@ -7,7 +7,7 @@ def transcribe_audio(file_path):
     return result["text"]
 
 # Example usage
-text = transcribe_audio("audio.wav")
+text = transcribe_audio("/content/sample_data/audio3.wav")
 print("text:",text)
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
